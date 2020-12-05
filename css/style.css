@@ -6,3 +6,100 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organised, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ */
+
+ /*General styles*/
+ html,
+  body {
+    background-color: rgb(77, 27, 131);
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: "Times New Roman";
+    padding: 5px;
+  }
+  
+  /*Header*/
+  #header {
+
+    
+    padding-bottom: 1em;
+    width: 100%;
+    background-color: rgb(86, 30, 149);
+    top: 0;
+    left: 0;
+    height: 5vw;
+  }
+
+  #header-logo {
+    padding-left: 1em;
+    padding-top: 15px;
+    width: 30em;
+    height: 5vw;
+    color: #ffffff;
+    font-size: 2em;
+  }
+
+  /*Images*/
+  .product_images {
+    margin: auto;
+    width: 50%;
+  }
+
+  /*Article*/
+  .product_description {
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  article{
+      padding: 20px;
+  }
+  main{
+      padding-top: 20px;
+  }
+
+  /*Links*/
+  a {
+    color: #ffffff;
+    
+  }
+
+  a:hover {
+    color: #ff0000;
+  }
+
+  .footer {
+    margin-top: 5em;
+    padding-top: 1em;
+    font-size: 15px;
+    background-color: rgb(86, 30, 149);
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer div {
+    padding: 1em;
+    font-size: 1.45em;
+    text-align: right;
+  }
+
+  .footer div span {
+    margin-right: 2.1em;
+  }
+
+  /*Homework*/
+  article:first-child{
+    background-color:rgb(97, 49, 153);
+    font-family: 'Special Elite', cursive;
+  }
+
